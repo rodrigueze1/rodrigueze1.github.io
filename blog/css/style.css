@@ -90,6 +90,10 @@ h1 {
     text-shadow: 2px 2px 5px black;
 }
 
+h2 {
+    margin-top: 3.5rem;
+}
+
 .highlight {
     display: inline-block;
     font-family: ultra, Georgia, serif;
@@ -174,16 +178,26 @@ aside p {
     margin-bottom: 2rem;
 }
 
-aside p a {
+.expand {
     font-size: 0.4rem;
+    white-space: nowrap;
 }
 
 .subsection {
     display: flex;
 }
 
+footer {
+    margin-top: 4rem;
+}
+
+.copyright {
+    float: left;
+}
+
 .attribution {
-    text-align: right;
+    float: right;
+    width: 60%;
 }
 
 /*  IMAGES AND FIGURES  */
@@ -201,6 +215,7 @@ figure {
     width: 95%;
     float: left;
     margin-right: 0.75rem;
+    margin-bottom: 0.75rem;
 }
 
 .subsection {
