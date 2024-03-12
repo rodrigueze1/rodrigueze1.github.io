@@ -181,6 +181,7 @@ aside p {
 .expand {
     font-size: 0.4rem;
     white-space: nowrap;
+    
 }
 
 .subsection {
@@ -254,8 +255,8 @@ nav {
 .slash {
     display: inline-block;
     text-decoration: line-through;
-    text-transform: capitalize;
-    color: black;
+    text-transform: uppercase;
+    color: black !important;
     transform: rotate(3deg);
 }
 
